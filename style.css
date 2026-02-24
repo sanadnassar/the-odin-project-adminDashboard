@@ -1,0 +1,78 @@
+:root {
+    font-family: Sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+}
+
+.outer {
+    display: grid;
+    grid-template-columns: 1.5fr 6fr;
+    height: 100vh;
+}
+
+.left {
+    background-color: #1992d4;
+}
+
+.list {
+    list-style-type: none;
+    color: #fdfeff;
+}
+
+#dash {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#list1 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    font-size: 19px;
+}
+
+#list2 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding-bottom: 40px;
+    font-size: 19px;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.pair > img {
+    margin-top: -3px;
+}
+
+#dash > img {
+    margin-top: -10px;
+    padding-right: 40px;
+    position: absolute;
+    left: 28px;
+}
+
+#dash > li {
+    position: absolute;
+    left: 95px;
+}
+
+/* AI generated solution to inver the colors of the SVG and make them white */
+.pair img {
+    filter: invert(100%) brightness(200%);
+}
+
+
+.right {
+    display: grid;
+    grid-template-rows: 2fr 9fr;
+}
