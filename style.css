@@ -31,8 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 19px;
-    padding-bottom: 40px;
-    padding-top: 70px;
+    padding-bottom: 48px;
+    padding-top: 55px;
     font-size: 19px;
 }
 
@@ -74,5 +74,93 @@ body {
 
 .right {
     display: grid;
-    grid-template-rows: 2fr 9fr;
+    grid-template-rows: 2fr 7fr;
+}
+
+.upper {
+    background-color: white;
+}
+
+.lower {
+    background-color: #e2e8f0;
+}
+
+input {
+    width: 630px;
+    height: 27px;
+    background-color: #e2e8f0;
+    border-radius: 14px;
+    border: none;
+}
+
+.search {
+    margin-left: 40px;
+    display: flex;
+    gap: 22px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 6px;
+}
+
+#sea {
+    display: flex;
+    gap: 150px;
+}
+
+.notis {
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.notis > img {
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+}
+
+#pp {
+    position: absolute;
+    top: 0;
+    margin-top: 27px;
+    margin-left: 125px;
+}
+
+.pic {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 26px;
+}
+
+.pic1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    font-size: 15px;
+    margin-bottom: -20px;
+    margin-top: 35px;
+}
+
+#na {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.profile {
+    display: flex;
+    gap: 500px;
+}
+
+#btn {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    margin-left: -50px;
+    margin-top: 50px;
 }
