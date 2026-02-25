@@ -96,7 +96,7 @@ input {
 .search {
     margin-left: 40px;
     display: flex;
-    gap: 22px;
+    gap: 15px;
     margin-top: 20px;
 }
 
@@ -109,7 +109,7 @@ button {
 
 #sea {
     display: flex;
-    gap: 150px;
+    gap: 140px;
 }
 
 .notis {
@@ -141,6 +141,7 @@ button {
     flex-direction: column;
 }
 
+
 .greeting {
     font-size: 15px;
     margin-bottom: -20px;
@@ -161,6 +162,6 @@ button {
     margin-top: 30px;
     display: flex;
     gap: 30px;
-    margin-left: -50px;
+    margin-right: 10px;
     margin-top: 50px;
 }
